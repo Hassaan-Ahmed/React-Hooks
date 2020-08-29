@@ -8,7 +8,7 @@ const NewGrudge = ({ onSubmit }) => {
     event.preventDefault();
     onSubmit({ person, reason });
   };
-
+console.log('new grudge');
   return (
     <form className="NewGrudge" onSubmit={handleChange}>
       <input
